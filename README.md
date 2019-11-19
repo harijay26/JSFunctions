@@ -12,7 +12,7 @@ Q.11) Write a function that contains another function that can write a greeting 
 Q.12) Write a function that returns a function that in turn returns true/false if a given number M is greater than a second given number e.g. return p => p > r;
 Q.13) Write a maybe function that, given a predicate (a function that returns a boolean value) and any other function, only calls the latter if the former returns true: maybe(x => x > 100, myFunction). If the predicate returns true, the value of x should be passed to myFunction. If it the predicate returns false, x should be returned unchanged.
 Q.14) Write a compose function that returns the result of all the functions passed into it, passing the returned value of a function to the function on its left: const myFunction = compose(x => x*2, x => x + 1, x => x - 5); given myFunction(100) the result should be 192.
-#### Filter, Map, Reduce
+## Filter, Map, Reduce
 Q.15) Write a filter function in JavaScript that filters the following array of dog breeds for the string “er”: ["Dachsund", "German Shepard", "Great Dane", "Cocker Spaniel", "Border Collie", "Rottweiler", "Poodle", "Doberman"]
 Q.16) Write a JavaScript map function that manipulates the following array and returns only the IDs in a separate array.
 var employees = [{ id: 12, name: 'Davis Zion' }, { id: 89, name: 'Jerry Ball' }, { id: 45, name: 'Silver Adam' },
