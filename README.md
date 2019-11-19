@@ -2,6 +2,7 @@
 
 ## Recursion/Iteration
 Q.3) Write a recursive method that has one parameter which is an int value called x. The method prints (console.log) x asterisks, followed by x exclamation points. Do NOT use any loops. Do NOT use any variables other than x.
+
 Q.4) Given a string, compute recursively a new string where all the adjacent chars are now separated by a "*", e.g. yourFunction("hello") → "h*e*l*l*o"
 Q.5) Write a recursive method with two int parameters, m and n. The precondition requires 0 <= m and m <= n. The method prints (console.log) a line of m asterisks, then a line of m+1 asterisks, and so on up to a line of n asterisks. Then the same pattern is repeated backward: a line of n asterisks, then n-1, and so on down to n. The only loop allowed in your implementation is a loop to print a line of m asterisks. You may have two copies of this loop in different places of the implementation.
 
