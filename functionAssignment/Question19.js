@@ -1,7 +1,7 @@
 /* ================= Question - 19 ================ */
 
 // Bubble sort implementation (Iterative)
-const swapNumbers = (arr, i, j) => { // swap numbers
+const swapNumbers = (arr, i, j) => { // swap numbers function
 
     let temp = arr[i]; //save element value because it will change when we swap/reassign
     arr[i] = arr[j]; // assign element2 to element1
@@ -10,7 +10,7 @@ const swapNumbers = (arr, i, j) => { // swap numbers
   };
   
 
-const bubbleSort = arr => { // Bubble sort
+const bubbleSort = arr => { // Bubble sort function
    
     for(let i = 0; i < arr.length; i++){  //iterate over array from first element. Counter ~ iterate n times of the array
       for(let j = 1; j < arr.length; j++){ //iterate over array from succeeding element. Checks the element in the array
