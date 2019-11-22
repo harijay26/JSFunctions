@@ -3,7 +3,8 @@ const printAsterisk = (x) => {
     if (x <= 0) {
      return '';
     }   
-    return  '*' + printAsterisk(x-1) + '!' ;
+    //return  '*' + printAsterisk(x-1) + '!' ;
+    return  `* ${printAsterisk(x-1)} !` ;
       
   };
   

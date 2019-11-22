@@ -2,7 +2,7 @@
 
 const greeter = (greeting) => {
     const name = (str) => {
-      return greeting + ", " + str +"!";
+      return `${greeting}, ${str}!`;
     }
     return name;
   } 
