@@ -1,7 +1,9 @@
 /* ================= Question - 4 ================ */
 
-const wordSplitter = (str) => {
+wordSplitter = str => {
 
     return str.split('').join('*')
-}
-console.log(wordSplitter("hello"));
+};
+
+const input = "hello";
+console.log(wordSplitter(input));

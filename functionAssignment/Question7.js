@@ -1,7 +1,9 @@
 /* ================= Question - 7 ================ */
-const reverseString = (str) => { 
-    return str.split(" ").reverse().join(" ");   
-  }
-  
-  
-  console.log(reverseString('how are you doing'))
+
+
+reverseString = str => {
+  return str.split(" ").reverse().join(" ");
+};
+
+const input = 'how are you doing'
+console.log(reverseString(input));
